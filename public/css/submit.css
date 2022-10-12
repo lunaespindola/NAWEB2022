@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  html,body{
+    display: table;
+    height: 100%;
+    width: 100%;
+    align-content: space-between;
+    background: -webkit-linear-gradient(left, #2b0311, #030770);
+  }
+
+  .formContainer{
+
+    position: relative;
+    left: 1%;
+    top: 2%;
+    overflow: hidden;
+    max-width: 1500px;
+    height: 640px;
+    background: -webkit-linear-gradient(bottom, #c91454, #4f1cbd);
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 00px 15px 20px rgba(0,0,0,0.1);
+  }
+
+  .containerInun{
+    position: absolute;
+    top: 80px;
+    left: 320px;
+  }
+
+  .containerIncen  {
+    position: relative;
+    top: 65px;
+    left: 820px;
+  }
+
+  .containerAccMov{
+    position: absolute;
+    top: 280px;
+    left: 320px;
+  }
+
+  .containerTraf{
+    position: relative;
+    top: 245px;
+    left: 820px;
+  }
+
+  .containerSis{
+    position: absolute;
+    top: 480px;
+    left: 320px;
+  }
+
+  .containerOtros{
+    position: relative;
+    top: 425px;
+    left: 820px;
+  }
