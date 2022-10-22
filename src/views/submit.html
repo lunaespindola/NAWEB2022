@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- HTML code for submittion data -->
+    <!-- Author: Carlos Alan Gallegos Espindola -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Import CSS -->
+        <link rel="stylesheet" href="css/submit.css">
+        <title>Notificando Atizapán</title>
+    </head>
+    <body>
+        <div class="formContainer">
+            <h1>Notificando Atizapán</h1>
+            <!-- Form to send infromation to our server using a POST request -->
+            <form method="POST" action="/submitData">
+              <input type="text" name="title" class="question" id="nme_t" required autocomplete="off" />
+              <label for="nme"><span>Titulo de la Alerta</span></label>
+
+              <input type="text" name="body" class="question" id="nme_c" required autocomplete="off" />
+              <label for="msg"><span>Cuerpo de la Alerta</span></label>
+
+              <input id="post" type="submit" onclick="post()" value="Enviar Alerta" />
+            </form>
+    </div>
+    </body>
+</html>

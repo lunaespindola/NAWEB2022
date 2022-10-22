@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- HTML code for login -->
+    <!-- Author: Carlos Alan Gallegos Espindola -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Notificando Atizapán</title>
+        <!-- Import CSS -->
+        <link rel="stylesheet" href="css/sign.css">
+        <!-- Import firebase auth libraries for Frontend -->
+        <script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-app.js" defer ></script>
+        <script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-auth.js" defer ></script>
+        <script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js" defer ></script>
+    </head>
+    <body>
+        <div class="content_container" id="content_container">
+            <form action="#">
+                <div id="form_header_container">
+                    <h2 id="form_header">Notificando Atizapán</h2>
+                </div>
+                <div id="form_content_container">
+                    <div id="form_content_inner_container">
+                        <input type="text"  id="Email" placeholder="Correo Electronico">
+                        <input type="password" id="Password" placeholder="Contraseña">
+                        <div id="button_container">
+                            <button type="click" id="post">Acceder</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <!-- Import JavaScript for login with Node -->
+        <script src="js/login.js"></script>
+    </body>
+</html>
