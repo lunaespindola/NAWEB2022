@@ -8,7 +8,7 @@ and sending Push notifiaction to Android Studio with HTTP request
 
 ## Authors
 
-- [@AlanGallegosEsp](https://github.com/AlanGallegosEsp)
+- [@Lunaespindola](https://github.com/Lunaespindola)
 
 
 ## Deployment
